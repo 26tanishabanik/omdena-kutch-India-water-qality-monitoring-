@@ -155,7 +155,7 @@ elif add_selectbox == 'Select AOI Data Parameters':
     st.text("")
     st.text("")
 
-    st.write("Note-2: The minimum difference between start date and end date should be 2 months.")
+    st.write("Note-2: The minimum difference between start date and end date should be 1 month.")
     st.text("")
     st.text("")
     
@@ -169,7 +169,7 @@ elif add_selectbox == 'Select AOI Data Parameters':
                                'start2'],
                       index=['date']))
 
-    end1 = datetime.date(year=2024,month=2,day=28)-relativedelta(years=5) #  I need some range in the past
+    end1 = datetime.date(year=2024,month=1,day=31)-relativedelta(years=5) #  I need some range in the past
     
     end2 = datetime.date(year=2024,month=12,day=31)
     
