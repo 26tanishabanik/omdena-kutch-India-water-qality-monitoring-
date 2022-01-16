@@ -155,7 +155,7 @@ elif add_selectbox == 'Select AOI Data Parameters':
     st.text("")
     st.text("")
 
-    st.write("Note-2: The minimum difference between start date and end date should be 1 month.")
+    st.write("Note-2: The minimum difference between start date and end date should be 15 days.")
     st.text("")
     st.text("")
     
